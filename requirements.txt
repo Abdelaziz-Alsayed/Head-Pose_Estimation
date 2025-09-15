@@ -5,8 +5,7 @@ scikit-learn
 matplotlib
 
 # Machine Learning
-xgboost
-lightgbm
+scikit-learn
 
 # Computer Vision
 opencv-python
@@ -17,4 +16,5 @@ tqdm
 joblib
 
 # Notebooks
+
 jupyter
