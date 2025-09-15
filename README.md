@@ -40,22 +40,30 @@ head-pose-estimation/
    cd head-pose-estimation
 
 2. Create a virtual environment and install dependencies:
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
+   ```
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
+   ```
+
 
 
 🚀 Usage
 1️⃣ Predict on Image
-python src/main.py --image data/test_image.jpg
-
+   ```
+   python src/main.py --image data/test_image.jpg
+```
 2️⃣ Predict on Video
-python src/main.py --video data/sample_video.mp4
+   ```
+   python src/main.py --video data/sample_video.mp4
+   ```
 
 3️⃣ Predict in Real-time (Webcam)
-python src/main.py --realtime
+   ```
+   python src/main.py --realtime
+   ```
 
 
 Output videos/images will be saved in the project directory.
@@ -74,9 +82,9 @@ Place the dataset in the data/ directory before training.
 🏋️ Model Training
 
 To train the model on your dataset:
-
-python src/model.py --train --dataset data/AFLW2000
-
+   ```
+   python src/model.py --train --dataset data/AFLW2000
+   ```
 
 Features are extracted from MediaPipe landmarks.
 
