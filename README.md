@@ -14,7 +14,7 @@ head-pose-estimation/
 │ └── test_image.jpg
 │
 ├── notebooks/
-│ └── In_ShaAllah_Final.ipynb # Original notebook (experiments)
+│ └── Head Pose Estimation.ipynb # Original notebook (experiments)
 │
 ├── src/
 │ ├── init.py
