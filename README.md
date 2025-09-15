@@ -98,7 +98,7 @@ Face Landmark Detection → Extract 3D facial landmarks using MediaPipe.
 
 Preprocessing → Normalize and prepare features.
 
-Machine Learning → Train XGBoost/LightGBM model on extracted features.
+Machine Learning → Train Random Forest model on extracted features.
 
 Prediction → Predict yaw, pitch, roll angles.
 
@@ -149,16 +149,3 @@ AFLW2000 dataset
  – benchmark dataset
 
 Research papers and open-source projects on head pose estimation
-
-
-
-📜 License
-
-This project is licensed under the MIT License.
-
-
----
-
-👉 This README is now **GitHub-ready**: it includes **installation, dataset, training, results, demo, and acknowledgements**.  
-
-Would you like me to also create the **starter `main.py` CLI script with `argparse`** so everything in this README works out-of-the-box?
